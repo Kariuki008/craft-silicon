@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Murang'a Team Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+    
+  <header class="bg-black">
+    <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+      <img src="images/logo.webp" alt="Logo" class="h-10">
+      <nav class="flex space-x-4">
+        <a href="#" class="text-yellow-400 hover:text-yellow-600">News</a>
+        <a href="#" class="hover:text-yellow-400">Fixtures</a>
+        <a href="#" class="hover:text-yellow-400">Team</a>
+        <a href="#" class="hover:text-yellow-400">Statistics</a>
+        <a href="#" class="hover:text-yellow-400">Our Club</a>
+      </nav>
+      <div class="flex space-x-4">
+        <button class="text-yellow-400">Login</button>
+        <button class="text-yellow-400">Register</button>
+        <a href="#" class="text-yellow-400"><i class="fa fa-search"></i></a>
+      </div>
+    </div>
+  </header>
+
+  
+  <main class="bg-gray-800">
+    <section class="relative">
+      
+      <div class="w-full h-96 bg-cover bg-center" style="background-image: url('main-banner.jpg');"></div>
+      
+      <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center">
+        <h2 class="text-4xl font-bold">PREVIEW | Barça v Man City</h2>
+        <p class="mt-2 text-yellow-400 flex items-center space-x-2">
+          <span>First Team</span>
+          <span>•</span>
+          <span>1 hr ago</span>
+        </p>
+      </div>
+    </section>
+
+    <section class="container mx-auto px-4 py-8">
+      <div class="grid grid-cols-3 gap-4">
+        <div class="bg-black p-4 rounded-lg">
+          <img src="images/news.jpg" alt="News 1" class="w-full h-40 object-cover rounded">
+          <h3 class="mt-4 text-xl">INSIDE VIEW: First workouts in Orlando</h3>
+          <p class="text-yellow-400">05:56</p>
+        </div>
+        <div class="bg-black p-4 rounded-lg">
+          <img src="images/news2.jpeg" alt="News 2" class="w-full h-40 object-cover rounded">
+          <h3 class="mt-4 text-xl">Welcome Event in Orlando</h3>
+          <p class="text-yellow-400">7 hrs ago</p>
+        </div>
+        <div class="bg-black p-4 rounded-lg">
+          <img src="images/neewws.jpg" alt="News 3" class="w-full h-40 object-cover rounded">
+          <h3 class="mt-4 text-xl">Chimezie Metu joins the team</h3>
+          <p class="text-yellow-400">5 hrs ago</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-yellow-400 text-black py-4">
+      <div class="container mx-auto text-center">
+        <p class="text-2xl font-semibold">Next Match</p>
+        <div id="countdown" class="text-4xl font-bold"></div>
+      </div>
+    </section>
+
+    <section class="container mx-auto px-4 py-8 text-black">
+      <h2 class="text-3xl font-bold mb-4 text-white">Murang'a First Team</h2>
+      <div class="grid grid-cols-2 gap-8">
+        
+        <div class="bg-white rounded-lg p-4 text-center">
+          <div class="flex justify-between items-center">
+            <span class="text-lg">31 Wednesday Jul</span>  
+          </div>
+          <div class="flex justify-around items-center mt-4">
+            <img src="images/barca.png" alt="Barcelona" class="h-12">
+            <p class="text-2xl font-semibold">01:00</p>
+            <img src="images/Manchester_City_FC_badge.svg.png" alt="Man City" class="h-12">
+          </div>
+          <p class="text-xl mt-2">FC Barcelona v Man City</p>
+        </div>
+        <div class="bg-white rounded-lg p-4 text-center">
+          <div class="flex justify-between items-center">
+            <span class="text-lg">04 Sunday Aug</span>
+          </div>
+          <div class="flex justify-around items-center mt-4">
+            <img src="images/barca.png" alt="Barcelona" class="h-12">
+            <p class="text-2xl font-semibold">01:00</p>
+            <img src="images/Real_Madrid_CF.svg.webp" alt="Real Madrid" class="h-12">
+          </div>
+          <p class="text-xl mt-2">FC Barcelona v R. Madrid</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mx-auto px-4 py-8">
+      <h2 class="text-3xl font-bold text-yellow-400 mb-4">Murang’a Seal Tickets</h2>
+      <div class="grid grid-cols-3 gap-4">
+        <img src="images/ticketsone.jpeg" alt="Ticket 1" class="w-full h-40 object-cover rounded-lg">
+        <img src="images/ticketstwo.jpeg" alt="Ticket 2" class="w-full h-40 object-cover rounded-lg">
+        <img src="images/ticketsone.jpeg" alt="Ticket 3" class="w-full h-40 object-cover rounded-lg">
+      </div>
+    </section>
+
+    <section class="container mx-auto px-4 py-8 bg-gray-700 rounded-lg">
+      <h2 class="text-3xl font-bold text-yellow-400 mb-4">Murang’a Seal Store</h2>
+      <div class="grid grid-cols-4 gap-4">
+        <div class="bg-white p-4 rounded-lg text-center">
+          <img src="images/merch1.jpeg" alt="Item 1" class="w-full h-32 object-cover mb-2">
+          <p class="font-semibold">Jersey</p>
+          <p class="text-yellow-400">$25</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg text-center">
+          <img src="images/merch2.jpeg" alt="Item 2" class="w-full h-32 object-cover mb-2">
+          <p class="font-semibold">T-Shirt</p>
+          <p class="text-yellow-400">$15</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg text-center">
+          <img src="images/merch3.jpeg" alt="Item 3" class="w-full h-32 object-cover mb-2">
+          <p class="font-semibold">Cap</p>
+          <p class="text-yellow-400">$10</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg text-center">
+          <img src="images/merch4.webp" alt="Item 4" class="w-full h-32 object-cover mb-2">
+          <p class="font-semibold">Accessories</p>
+          <p class="text-yellow-400">$8</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mx-auto px-4 py-8">
+      <h2 class="text-3xl font-bold text-yellow-400 mb-4">Murang’a Seal News</h2>
+      <div class="grid grid-cols-3 gap-4">
+        <div class="bg-white p-4 rounded-lg text-center">
+          <img src="images/news2.jpeg" alt="News Item 1" class="w-full h-32 object-cover rounded mb-2">
+          <p class="font-semibold">Training Updates</p>
+          <p class="text-yellow-400">2 hrs ago</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg text-center">
+          <img src="images/newitem2.jpg" alt="News Item 2" class="w-full h-32 object-cover rounded mb-2">
+          <p class="font-semibold">Match Highlights</p>
+          <p class="text-yellow-400">5 hrs ago</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg text-center">
+          <img src="images/newsitem3.jpg" alt="News Item 3" class="w-full h-32 object-cover rounded mb-2">
+          <p class="font-semibold">Player Insights</p>
+          <p class="text-yellow-400">8 hrs ago</p>
+        </div>
+      </div>
+    </section>
+
+<section class="bg-gray-900 py-10 text-center">
+    <h2 class="text-yellow-400 text-2xl mb-6">Players</h2>
+    <div class="flex justify-center space-x-4 overflow-x-auto no-scrollbar">
+      
+      <div class="bg-gray-800 rounded-lg shadow-lg p-4 w-64">
+        <img src="images/Player1.jpg" alt="Player 1" class="w-full h-40 object-cover rounded mb-4">
+        <p class="text-white font-semibold">Player Name 1</p>
+        <p class="text-yellow-400">Position</p>
+      </div>
+      
+      <div class="bg-gray-800 rounded-lg shadow-lg p-4 w-64">
+        <img src="images/player2.jpeg" alt="Player 2" class="w-full h-40 object-cover rounded mb-4">
+        <p class="text-white font-semibold">Player Name 2</p>
+        <p class="text-yellow-400">Position</p>
+      </div>
+    
+      <div class="bg-gray-800 rounded-lg shadow-lg p-4 w-64">
+        <img src="images/Player1.jpg" alt="Player 3" class="w-full h-40 object-cover rounded mb-4">
+        <p class="text-white font-semibold">Player Name 3</p>
+        <p class="text-yellow-400">Position</p>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="bg-black text-white py-10">
+    <div class="container mx-auto px-4">
+
+      <div class="flex justify-center space-x-8 mb-6">
+        <img src="images/sponsor1.jpg" alt="Nike" class="h-8">
+        <img src="images/sponsor 2.png" alt="Spotify" class="h-8">
+        <img src="images/sponsor3.png" alt="Ambilight TV" class="h-8">
+      </div>
+      
+      <div class="flex flex-wrap justify-between items-center">
+        <div>
+          <p class="text-yellow-400 font-semibold">Contact</p>
+          <p>support@murangaseal.com</p>
+          <p>+254 710 678987</p>
+        </div>
+        <div class="bg-yellow-400 text-black p-4 rounded-lg w-full md:w-1/2 mt-6 md:mt-0">
+          <p class="font-semibold">Register Now So You Don’t Miss Our Game</p>
+          <form class="mt-4 flex">
+            <input type="email" placeholder="Enter your email" class="p-2 w-full rounded-l-lg focus:outline-none">
+            <button type="submit" class="bg-black text-yellow-400 p-2 rounded-r-lg">Subscribe</button>
+          </form>
+        </div>
+      </div>
+  
+      <div class="text-center mt-6">
+        <p class="text-yellow-400 font-semibold">Murang'a Seal</p>
+        <p>&copy; 2024 Murang'a Seal. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  
+  </main>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

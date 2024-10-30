@@ -1,0 +1,48 @@
+/* Base styles */
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  header, .footer {
+    background-color: #000000;
+    color: #FFFFFF;
+  }
+  
+  a:hover {
+    color: #FFC107;
+  }
+  
+  h2 {
+    color: #FFC107;
+  }
+  
+  .text-yellow-400 {
+    color: #FFC107;
+  }
+  
+  .bg-gray-900 {
+    background-color: #1A202C;
+  }
+  
+  /* Remove scrollbar for carousel */
+.no-scrollbar {
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .no-scrollbar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+  }
+  
+  footer .container {
+    max-width: 1200px;
+  }
+  
+  footer img {
+    max-height: 50px;
+  }
+  
+  .bg-gray-800 {
+    background-color: #2D3748;
+  }
+  
+
